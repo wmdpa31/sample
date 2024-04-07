@@ -66,10 +66,10 @@
       Kakao.init("c2daa8b980cd01de4c366d51d8308efe");
     </script>
     <!-- naver API -->
-    <script
+    <!-- <script
       type="text/javascript"
       src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=0rvojoros2"
-    ></script>
+    ></script> -->
     <!-- gallery -->
     <script type="text/javascript" src="gallery-fix1.js"></script>
     <!-- countdown -->
@@ -277,8 +277,20 @@
                   level: 3, // 지도의 확대 레벨
                 };
 
-              // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-              var map = new kakao.maps.Map(mapContainer, mapOption);
+              var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+              // 마커가 표시될 위치입니다
+              var markerPosition = new kakao.maps.LatLng(37.506075, 127.06683);
+
+              // 마커를 생성합니다
+              var marker = new kakao.maps.Marker({
+                position: markerPosition,
+              });
+
+              // 마커가 지도 위에 표시되도록 설정합니다
+              marker.setMap(map);
+
+              // 네이버 지도
               // var mapDiv = document.getElementById("map");
               // var position = new naver.maps.LatLng(37.506075, 127.06683);
               // var map = new naver.maps.Map("map", {
