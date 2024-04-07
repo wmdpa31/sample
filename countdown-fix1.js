@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   function updateCountdown() {
     // 결혼 날짜 설정 (년, 월(0부터 시작), 일)
-    const weddingDate = new Date(2024, 5, 1); // 예시: 2024년 10월 12일
+    const weddingDate = new Date(2024, 7, 3); // 예시: 2024년 10월 12일
 
     const currentDate = new Date();
     const timeDifference = weddingDate - currentDate;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       );
       const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-      document.getElementById("DaysInfoLeft").textContent = days
+      document.getElementById("daysInfoLeft").textContent = days
         .toString()
         .padStart(2, "0");
       document.getElementById("daysLeft").textContent = days
