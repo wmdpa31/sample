@@ -160,7 +160,7 @@
         </div>
 
         <!-- 결혼식 카운트 -->
-        <div id="countdown">
+        <!-- <div id="countdown">
           <span class="countdownTimeUnit">DAY</span><span class="countdownTimeUnit">HOUR</span><span
             class="countdownTimeUnit">MIN</span>
           <span class="countdownTimeUnit">SEC</span>
@@ -168,6 +168,36 @@
           <span class="countdownTimeSub" id="daysLeft" style="color: #6799ff">00</span>:<span class="countdownTimeSub"
             id="hoursLeft">00</span>:<span class="countdownTimeSub" id="minutesLeft">00</span>:
           <span class="countdownTimeSub" id="secondsLeft">00</span>
+          <p id="countdownInfo">
+            결혼까지 남은 시간.
+            <span class="countdownTimeInfo" id="daysInfoLeft">00</span>일
+          </p>
+        </div> -->
+
+        <!-- 결혼식 카운트 -->
+        <div id="countdown">
+          <div class="flex justify-center">
+            <table class="text-center">
+              <tr>
+                <th>DAY</th>
+                <th></th>
+                <th>HOUR</th>
+                <th></th>
+                <th>MIN</th>
+                <th></th>
+                <th>SEC</th>
+              </tr>
+              <tr>
+                <td id="daysLeft" style="color: #6799ff">119</td>
+                <td>:</td>
+                <td id="hoursLeft">03</td>
+                <td>:</td>
+                <td id="minutesLeft">10</td>
+                <td>:</td>
+                <td id="secondsLeft">28</td>
+              </tr>
+            </table>
+          </div>
           <p id="countdownInfo">
             결혼까지 남은 시간.
             <span class="countdownTimeInfo" id="daysInfoLeft">00</span>일

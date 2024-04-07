@@ -116,6 +116,19 @@
   height: 140px;
   text-align: center;
   background-color: #eddfd3;
+
+  table {
+    width: 65%;
+    font-size: 1rem;
+
+    th {
+      font-weight: normal;
+    }
+
+    tr {
+      height: 30px;
+    }
+  }
 }
 
 #countdownInfo {
