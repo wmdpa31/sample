@@ -242,9 +242,18 @@ main {
   background-color: #eaeaea;
   display: flex;
   flex-direction: column;
-  margin: 0 auto; /* 가운데 정렬을 위한 margin 속성 추가 */
+  align-items: center; /* 가로 가운데 정렬을 위한 align-items 속성 추가 */
+  margin: 0 auto;
 }
 
+#kakaoMapButton {
+  padding: 10px;
+  text-align: center;
+  width: auto; /* 이미지와 텍스트 크기에 따라 너비 조정 */
+  display: flex; /* 이미지와 텍스트를 한 줄로 나란히 정렬하기 위해 flex로 설정 */
+  align-items: center; /* 세로 가운데 정렬을 위한 align-items 속성 추가 */
+  justify-content: center; /* 가로 가운데 정렬을 위한 justify-content 속성 추가 */
+}
 /*old*/
 /* html {
   font-size: 16px;
@@ -382,13 +391,7 @@ section {
   margin: 0 auto;
 }
 
-.MapIconContainer {
-  width: 50px;
-  height: 50px;
-  padding: 0;
-  margin: 0 1rem 0 0;
-  border-radius: 50px;
-}
+
 .mapicon {
   width: 100%;
   margin: 0 1rem 0 0;
@@ -399,6 +402,14 @@ section {
 
 /* .active,
 .accordion:hover {
+} */
+/* .MapIconContainer {
+  width: 200px;
+  background-color: #eaeaea;
+  height: 50px;
+  padding: 0;
+  margin: 0 1rem 0 0;
+  border-radius: 50px;
 } */
 
 @media (max-width: 960px) {
