@@ -136,7 +136,7 @@
 }
 #mapContainer {
   background-color: #eaeaea;
-  height: 400px;
+  height: 300px;
   position: relative; /* 상대 위치 지정 */
 }
 #locationSection {
