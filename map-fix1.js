@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   guideDiv.style.width = "100%";
   guideDiv.style.opacity = 0.5;
   guideDiv.style.position = 'absolute';
+  guideDiv.style.zIndex = 1;
   guideDiv.className = "flex justify-center items-center"
   
   mapContainerElement.appendChild(guideDiv);
