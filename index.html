@@ -315,7 +315,6 @@
             </p>
           </div>
         </section>
-
         <!-- 계좌번호 -->
         <section id="accountNumberSection">
           <h5 id="accountNumberTitleInfo">계좌번호</h5>
@@ -385,7 +384,7 @@
               </button>
               <button id="snsButton" type="button" class="shareTwoG">
                 <img src="img_2/12.png" alt="문자전송" style="width: 25px; height: 25px" />
-                2G 휴태폰 전송
+                2G 휴대폰 전송
               </button>
             </div>
           </div>
@@ -393,7 +392,7 @@
 
         <!-- 하단 로고 -->
         <footer>
-          <div class="text-center">
+          <div class="flex justify-center">
             <a href="https://www.instagram.com/luvle_studio?igsh=dG4zNzNkZzg4anll">
               <img src="img_2/10.png" alt="러블 로고 이미지" />
             </a>
@@ -401,118 +400,6 @@
         </footer>
       </div>
     </main>
-  </div>
-  <!-- 이동수단 정보 -->
-  <section id="locationMoveSection" class="flex justify-center">
-    <div id="locationMoveBox">
-      <p id="locationMoveTitleInfo">지하철 & 버스</p>
-      <p id="locationMoveInfo">
-        영등포역 후문 2번 출구에서 마을버스 06번 탑승 <br />
-        삼성 래미안 아파트 1단지 하차
-      </p>
-    </div>
-    <div id="locationMoveBox">
-      <p id="locationMoveTitleInfo">무료 셔틀 버스</p>
-      <p id="locationMoveInfo">
-        1호선 대방역 3번출구, 7호선 보라매역 5번출구 <br />
-        예식 1시간 30분 전부터 10015분 간격으로 운행예정
-      </p>
-    </div>
-    <div id="locationMoveBox">
-      <p id="locationMoveTitleInfo">주차장</p>
-      <p id="locationMoveInfo">
-        자가용 이용시 주차직원 안내에 따라 해군호텔 W웨딜홀(2시간)
-        <br />
-        또는 예식장 건너편에 시간 제한 없이 무료 주차 가능합니다.
-      </p>
-    </div>
-  </section>
-
-  <!-- 계좌번호 -->
-  <section id="accountNumberSection">
-    <h5 id="accountNumberTitleInfo">계좌번호</h5>
-    <button class="accordion">
-      <p id="centerText">신랑 측 계좌번호 ∨</p>
-    </button>
-    <div class="panel">
-      <ul>
-        <li>
-          <strong>신랑</strong><br />카카오뱅크 1234-02-1969043 (김동동)
-        </li>
-        <li>
-          <strong>신랑 아버지</strong><br />신한은행 535512-01-184718
-          (김만호)
-        </li>
-      </ul>
-    </div>
-    <button class="accordion">
-      <p id="centerText">신부 측 계좌번호 ∨</p>
-    </button>
-    <div class="panel">
-      <ul>
-        <li>
-          <strong>신부</strong><br />국민은행 112-246-624438 (오아리)
-        </li>
-        <li>
-          <strong>신부 아버지</strong><br />농협 301819-52-029714
-          (오석기)
-        </li>
-        <li>
-          <strong>신부 어머니</strong><br />케이뱅크 893-254854-371
-          (조민희)
-        </li>
-      </ul>
-    </div>
-    <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
-    </script>
-
-    <!-- 공유하기 버튼 -->
-    <div class="total-button-container">
-      <div class="button-container">
-        <button id="snsButton" type="button" class="shareKt">
-          <img src="img_2/15.png" alt="카카오톡" style="width: 25px; height: 25px" />
-          카카오톡
-        </button>
-        <button id="snsButton" type="button" class="shareKs">
-          <img src="img_2/13.png" alt="카카오스토리" style="width: 25px; height: 25px" />
-          카카오스토리
-        </button>
-        <button id="snsButton" type="button" class="shareFb">
-          <img src="img_2/14.png" alt="페이스북" style="width: 25px; height: 25px" />
-          페이스북
-        </button>
-        <button id="snsButton" type="button" class="shareTwoG">
-          <img src="img_2/12.png" alt="문자전송" style="width: 25px; height: 25px" />
-          2G 휴대폰 전송
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <!-- 하단 로고 -->
-  <footer>
-    <div class="text-center">
-      <a href="https://www.instagram.com/luvle_studio?igsh=dG4zNzNkZzg4anll">
-        <img src="img_2/10.png" alt="러블 로고 이미지" />
-      </a>
-    </div>
-  </footer>
-  </div>
-  </main>
   </div>
   <!-- <div class="modal">
       <div class="modal-body">
