@@ -234,6 +234,16 @@ main {
   background-color: white;
   overflow: hidden;
 }
+.maplink {
+  display: inline-block;
+}
+#MapIconDiv {
+  text-align: center;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* 가운데 정렬을 위한 margin 속성 추가 */
+}
 
 /*old*/
 /* html {
